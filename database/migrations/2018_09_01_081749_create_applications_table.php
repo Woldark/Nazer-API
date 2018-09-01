@@ -19,6 +19,7 @@ class CreateApplicationsTable extends Migration
             $table->string('uid')->nullable();
 
             $table->string('name');
+            $table->string('platform');
 
             $table->foreign('project_id')->references('id')->on('projects');
 

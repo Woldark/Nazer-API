@@ -28,6 +28,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Application whereUpdateDate($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Application whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property string $platform
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Application wherePlatform($value)
  */
 class Application extends Model
 {
