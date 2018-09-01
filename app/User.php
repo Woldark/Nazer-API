@@ -2,8 +2,9 @@
 
 namespace App;
 
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 
 /**
  * App\User
@@ -24,6 +25,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereRememberToken($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Event[] $events
+ * @property string $create_date
+ * @property string|null $update_date
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereCreateDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdateDate($value)
  */
 class User extends Authenticatable
 {
@@ -46,4 +52,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function events(): HasMany
+    {
+        return $this->hasMany(Event::class, 'user_id');
+    }
 }
