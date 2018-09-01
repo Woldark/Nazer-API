@@ -10,26 +10,29 @@ use Illuminate\Notifications\Notifiable;
  * App\User
  *
  * @property int $id
+ * @property string|null $key
  * @property string $name
  * @property string $email
  * @property string $password
  * @property string|null $remember_token
+ * @property string $create_date
+ * @property string|null $update_date
  * @property \Carbon\Carbon|null $created_at
  * @property \Carbon\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Event[] $events
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereCreateDate($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereEmail($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereKey($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User wherePassword($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereRememberToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdateDate($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdatedAt($value)
  * @mixin \Eloquent
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Event[] $events
- * @property string $create_date
- * @property string|null $update_date
- * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereCreateDate($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\App\User whereUpdateDate($value)
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Project[] $projects
  */
 class User extends Authenticatable
 {
@@ -56,5 +59,10 @@ class User extends Authenticatable
     public function events(): HasMany
     {
         return $this->hasMany(Event::class, 'user_id');
+    }
+
+    public function projects(): HasMany
+    {
+        return $this->hasMany(Project::class, 'user_id');
     }
 }

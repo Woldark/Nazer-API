@@ -25,6 +25,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Event whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Event whereUserClientId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Event whereUserId($value)
+ * @property string $body
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Event whereBody($value)
+ * @property int|null $application_id
+ * @property-read \App\Application|null $application
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Event whereApplicationId($value)
  */
 class Event extends Model
 {
@@ -36,5 +41,10 @@ class Event extends Model
     public function client_user(): BelongsTo
     {
         return $this->belongsTo(ClientUser::class, 'user_client_id');
+    }
+
+    public function application(): BelongsTo
+    {
+        return $this->belongsTo(Application::class, 'application_id');
     }
 }
