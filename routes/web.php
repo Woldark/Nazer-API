@@ -18,3 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['prefix' => 'developers'], function () {
+    Route::get('/', 'CAdmin\MainController@dashboard')->name('dashboard');
+});
