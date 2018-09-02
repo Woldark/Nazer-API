@@ -3,13 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Vendor styles -->
     <link rel="stylesheet"
           href="{{ asset('CAdmin/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css') }}">
     <link rel="stylesheet" href="{{ asset('CAdmin/vendors/bower_components/animate.css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('CAdmin/vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css') }}">
-
     <!-- App styles -->
     <link rel="stylesheet" href="{{ asset('CAdmin/css/app.min.css') }}">
 </head>
@@ -19,7 +17,7 @@
     <div class="page-loader">
         <div class="page-loader__spinner">
             <svg viewBox="25 25 50 50">
-                <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+                <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
             </svg>
         </div>
     </div>
@@ -30,7 +28,7 @@
         </div>
 
         <div class="logo hidden-sm-down">
-            <h1><a href="index.html">Super Admin 2.0</a></h1>
+            <h1><a href="#">TiTar</a></h1>
         </div>
 
         <form class="search">
@@ -41,22 +39,22 @@
         </form>
 
         <ul class="top-nav">
-            <li class="hidden-xl-up"><a href="default.htm" data-sa-action="search-open"><i class="zmdi zmdi-search"></i></a>
+            <li class="hidden-xl-up"><a href="#" data-sa-action="search-open"><i class="zmdi zmdi-search"></i></a>
             </li>
 
             <li class="dropdown">
-                <a href="default.htm" data-toggle="dropdown" class="top-nav__notify"><i class="zmdi zmdi-email"></i></a>
+                <a href="#" data-toggle="dropdown" class="top-nav__notify"><i class="zmdi zmdi-email"></i></a>
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
                     <div class="dropdown-header">
                         پیام ها
 
                         <div class="actions">
-                            <a href="messages.html" class="actions__item zmdi zmdi-plus"></a>
+                            <a href="#" class="actions__item zmdi zmdi-plus"></a>
                         </div>
                     </div>
 
                     <div class="listview listview--hover">
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img" alt="">
 
                             <div class="listview__content">
@@ -68,7 +66,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img" alt="">
 
                             <div class="listview__content">
@@ -80,7 +78,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img" alt="">
 
                             <div class="listview__content">
@@ -93,7 +91,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img" alt="">
 
                             <div class="listview__content">
@@ -106,7 +104,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img" alt="">
 
                             <div class="listview__content">
@@ -119,13 +117,13 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="view-more">مشاهده تمام پیام ها</a>
+                        <a href="#" class="view-more">مشاهده تمام پیام ها</a>
                     </div>
                 </div>
             </li>
 
             <li class="dropdown top-nav__notifications">
-                <a href="default.htm" data-toggle="dropdown" class="top-nav__notify">
+                <a href="#" data-toggle="dropdown" class="top-nav__notify">
                     <i class="zmdi zmdi-notifications"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
@@ -133,14 +131,14 @@
                         نوتیفیکیشن
 
                         <div class="actions">
-                            <a href="default.htm" class="actions__item zmdi zmdi-check-all"
+                            <a href="#" class="actions__item zmdi zmdi-check-all"
                                data-sa-action="notifications-clear"></a>
                         </div>
                     </div>
 
                     <div class="listview listview--hover">
                         <div class="listview__scroll scrollbar-inner">
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -150,7 +148,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -160,7 +158,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -171,7 +169,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -182,7 +180,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -193,7 +191,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -203,7 +201,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -213,7 +211,7 @@
                                 </div>
                             </a>
 
-                            <a href="default.htm" class="listview__item">
+                            <a href="#" class="listview__item">
                                 <img src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" class="listview__img"
                                      alt="">
 
@@ -231,13 +229,13 @@
             </li>
 
             <li class="dropdown hidden-xs-down">
-                <a href="default.htm" data-toggle="dropdown"><i class="zmdi zmdi-check-circle"></i></a>
+                <a href="#" data-toggle="dropdown"><i class="zmdi zmdi-check-circle"></i></a>
 
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu--block" role="menu">
                     <div class="dropdown-header">وظایف</div>
 
                     <div class="listview listview--hover">
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <div class="listview__content">
                                 <div class="listview__heading">گزارش بررسی خطاهای سایت</div>
 
@@ -248,7 +246,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <div class="listview__content">
                                 <div class="listview__heading">اکستنشن های گوگل کروم</div>
 
@@ -259,7 +257,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <div class="listview__content">
                                 <div class="listview__heading">پروژه های شبکه های اجتماعی</div>
 
@@ -270,7 +268,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <div class="listview__content">
                                 <div class="listview__heading">ادمین بوت استرپ</div>
 
@@ -281,7 +279,7 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="listview__item">
+                        <a href="#" class="listview__item">
                             <div class="listview__content">
                                 <div class="listview__heading">اپلیکیشن یوتیوب</div>
 
@@ -292,37 +290,37 @@
                             </div>
                         </a>
 
-                        <a href="default.htm" class="view-more">مشاهده تمام وظایف</a>
+                        <a href="#" class="view-more">مشاهده تمام وظایف</a>
                     </div>
                 </div>
             </li>
 
             <li class="dropdown hidden-xs-down">
-                <a href="default.htm" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
+                <a href="#" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
 
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu--block" role="menu">
                     <div class="row app-shortcuts">
-                        <a class="col-4 app-shortcuts__item" href="default.htm">
+                        <a class="col-4 app-shortcuts__item" href="#">
                             <i class="zmdi zmdi-calendar"></i>
                             <small class="">تقویم</small>
                         </a>
-                        <a class="col-4 app-shortcuts__item" href="default.htm">
+                        <a class="col-4 app-shortcuts__item" href="#">
                             <i class="zmdi zmdi-file-text"></i>
                             <small class="">فایل ها</small>
                         </a>
-                        <a class="col-4 app-shortcuts__item" href="default.htm">
+                        <a class="col-4 app-shortcuts__item" href="#">
                             <i class="zmdi zmdi-email"></i>
                             <small class="">ایمیل</small>
                         </a>
-                        <a class="col-4 app-shortcuts__item" href="default.htm">
+                        <a class="col-4 app-shortcuts__item" href="#">
                             <i class="zmdi zmdi-trending-up"></i>
                             <small class="">گزارش ها</small>
                         </a>
-                        <a class="col-4 app-shortcuts__item" href="default.htm">
+                        <a class="col-4 app-shortcuts__item" href="#">
                             <i class="zmdi zmdi-view-headline"></i>
                             <small class="">خبر</small>
                         </a>
-                        <a class="col-4 app-shortcuts__item" href="default.htm">
+                        <a class="col-4 app-shortcuts__item" href="#">
                             <i class="zmdi zmdi-image"></i>
                             <small class="">گالری</small>
                         </a>
@@ -331,17 +329,17 @@
             </li>
 
             <li class="dropdown hidden-xs-down">
-                <a href="default.htm" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
+                <a href="#" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
 
                 <div class="dropdown-menu dropdown-menu-right">
-                    <a href="default.htm" class="dropdown-item" data-sa-action="fullscreen">تمام صفحه</a>
-                    <a href="default.htm" class="dropdown-item">پاک کردن حافظه لوکال</a>
-                    <a href="default.htm" class="dropdown-item">تنظیمات</a>
+                    <a href="#" class="dropdown-item" data-sa-action="fullscreen">تمام صفحه</a>
+                    <a href="#" class="dropdown-item">پاک کردن حافظه لوکال</a>
+                    <a href="#" class="dropdown-item">تنظیمات</a>
                 </div>
             </li>
 
             <li class="hidden-xs-down">
-                <a href="default.htm" class="top-nav__themes" data-sa-action="aside-open" data-sa-target=".themes"><i
+                <a href="#" class="top-nav__themes" data-sa-action="aside-open" data-sa-target=".themes"><i
                         class="zmdi zmdi-palette"></i></a>
             </li>
         </ul>
@@ -362,163 +360,48 @@
                 <div class="user__info" data-toggle="dropdown">
                     <img class="user__img" src="{{ asset('CAdmin/demo/img/profile-pics/8.jpg') }}" alt="">
                     <div>
-                        <div class="user__name">رضا حسینی</div>
-                        <div class="user__email">malinda-h@gmail.com</div>
+                        <div class="user__name">آرش حاتمی</div>
+                        <div class="user__email">info@arash-hatami.ir</div>
                     </div>
                 </div>
 
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="default.htm">مشاهده پروفایل</a>
-                    <a class="dropdown-item" href="default.htm">تنظیمات</a>
-                    <a class="dropdown-item" href="default.htm">خروج</a>
+                    <a class="dropdown-item" href="#">مشاهده پروفایل</a>
+                    <a class="dropdown-item" href="#">تنظیمات</a>
+                    <a class="dropdown-item" href="#">خروج</a>
                 </div>
             </div>
 
             <ul class="navigation">
-                <li class="@@indexactive"><a href="index.html"><i class="zmdi zmdi-home"></i> خانه</a></li>
-
-                <li class="navigation__sub @@variantsactive">
-                    <a href="default.htm"><i class="zmdi zmdi-view-week"></i> لی اوت های مختلف</a>
-
-                    <ul>
-                        <li class="@@sidebaractive"><a href="hidden-sidebar.html">سایدبار مخفی</a></li>
-                        <li class="@@boxedactive"><a href="boxed-layout.html">لی اوت باکس</a></li>
-                        <li class="@@hiddensidebarboxedactive"><a href="hidden-sidebar-boxed-layout.html">لی اوت باکس با
-                                سایدبار مخفی</a></li>
-                    </ul>
-                </li>
-
-                <li class="@@typeactive"><a href="typography.html"><i class="zmdi zmdi-format-underlined"></i>
-                        تایپوگرافی</a></li>
-
-                <li class="@@widgetactive"><a href="widgets.html"><i class="zmdi zmdi-widgets"></i> ویجت ها</a></li>
-
-                <li class="navigation__sub @@tableactive">
-                    <a href="default.htm"><i class="zmdi zmdi-view-list"></i> جداول</a>
-
-                    <ul>
-                        <li class="@@normaltableactive"><a href="html-table.html">HTML Table</a></li>
-                        <li class="@@datatableactive"><a href="data-table.html">Data Table</a></li>
-                    </ul>
-                </li>
-
-                <li class="navigation__sub @@formactive">
-                    <a href="default.htm"><i class="zmdi zmdi-collection-text"></i> فرم ها</a>
-
-                    <ul>
-                        <li class="@@formelementactive"><a href="form-elements.html">فرم پایه</a></li>
-                        <li class="@@formcomponentactive"><a href="form-components.html">کامپوننت های فرم</a></li>
-                        <li class="@@formvalidationactive"><a href="form-validation.html">اعتبار سنجی فرم</a></li>
-                    </ul>
-                </li>
-
-                <li class="navigation__sub @@uiactive">
-                    <a href="default.htm"><i class="zmdi zmdi-swap-alt"></i> رابط کاربری</a>
-
-                    <ul>
-                        <li class="@@colorsactive"><a href="colors.html">رنگ ها</a></li>
-                        <li class="@@cssanimationsactive"><a href="css-animations.html">انیمیشن های سی اس اس</a></li>
-                        <li class="@@buttonsactive"><a href="buttons.html">دکمه ها</a></li>
-                        <li class="@@iconsactive"><a href="icons.html">آیکن ها</a></li>
-                        <li class="@@listviewactive"><a href="listview.html">لیست ویو</a></li>
-                        <li class="@@toolbarsactive"><a href="toolbars.html">تولبار</a></li>
-                        <li class="@@cardsactive"><a href="cards.html">کاردها</a></li>
-                        <li class="@@alertactive"><a href="alerts.html">هشدارها</a></li>
-                        <li class="@@badgesactive"><a href="badges.html">بجت ها</a></li>
-
-                        <li class="@@jumbotronactive"><a href="jumbotron.html">Jumbotron</a></li>
-                        <li class="@@navsactive"><a href="navs.html">Navs</a></li>
-                        <li class="@@paginationactive"><a href="pagination.html">صفحه بندی</a></li>
-                        <li class="@@progressactive"><a href="progress.html">پراگرس بار</a></li>
-                    </ul>
-                </li>
-
-                <li class="navigation__sub @@componentsactive">
-                    <a href="default.htm"><i class="zmdi zmdi-group-work"></i> کامپوننت های جاوا اسکریپتی</a>
-
-                    <ul class="navigation__sub">
-                        <li class="@@carouselactive"><a href="carousel.html">اسلایدر</a></li>
-                        <li class="@@collapseactive"><a href="collapse.html">کلپس</a></li>
-                        <li class="@@dropdownsactive"><a href="dropdowns.html">دراپ دان</a></li>
-                        <li class="@@modalsactive"><a href="modals.html">مدال</a></li>
-                        <li class="@@popoveractive"><a href="popover.html">پاپ آور</a></li>
-                        <li class="@@tabsactive"><a href="tabs.html">تب</a></li>
-                        <li class="@@tooltipsactive"><a href="tooltips.html">تولتیپ</a></li>
-                        <li class="@@notificationsactive"><a href="notifications-alerts.html">نوتیفیکیشن و آلرت</a></li>
-
-                    </ul>
-                </li>
-
-                <li class="navigation__sub @@chartsactive">
-                    <a href="default.htm"><i class="zmdi zmdi-trending-up"></i> نمودار</a>
-
-                    <ul>
-                        <li class="@@flotchartsactive"><a href="flot-charts.html">Flot</a></li>
-                        <li class="@@otherchartsactive"><a href="other-charts.html">نمودار دیگر</a></li>
-                    </ul>
-                </li>
-
-                <li class="@@calendaractive"><a href="calendar.html"><i class="zmdi zmdi-calendar"></i> تقویم</a></li>
-
-                <li class="@@photogalleryactive"><a href="photo-gallery.html"><i class="zmdi zmdi-image"></i> گالری
-                        تصاویر</a></li>
-
-                <li class="navigation__sub navigation__sub--active navigation__sub--toggled">
-                    <a href="default.htm"><i class="zmdi zmdi-collection-item"></i> صفحات نمونه</a>
-
-                    <ul>
-                        <li class="@@profileactive"><a href="profile-about.html">پروفایل</a></li>
-                        <li class="@@messagesactive"><a href="messages.html">پیام ها</a></li>
-                        <li class="@@contactsactive"><a href="contacts.html">ارتباط با ما</a></li>
-                        <li class="@@newcontactsactive"><a href="new-contact.html">مخاطب جدید</a></li>
-                        <li class="@@groupsactive"><a href="groups.html">گروه ها</a></li>
-                        <li class="@@pricingtablesactive"><a href="pricing-tables.html">جداول قیمت</a></li>
-                        <li class="@@invoiceactive"><a href="invoice.html">فاکتور</a></li>
-                        <li class="@@todoactive"><a href="todo-lists.html">لیست وضایف</a></li>
-                        <li class="@@notesactive"><a href="notes.html">یادداشت ها</a></li>
-                        <li class="@@searchresultsactive"><a href="search-results.html">نتیجه جستجو</a></li>
-                        <li class="@@issuesactive"><a href="issue-tracker.html">پیگیری خطاها</a></li>
-                        <li class="@@faqactive"><a href="faq.html">سوالات متداول</a></li>
-                        <li class="@@teamactive"><a href="team.html">تیم</a></li>
-                        <li class="@@blogactive"><a href="blog.html">بلاگ</a></li>
-                        <li class="@@blogdetailactive"><a href="blog-detail.html">جزییات بلاگ</a></li>
-                        <li class="@@qaactive"><a href="questions-answers.html">پرسش و پاسخ</a></li>
-                        <li class="@@qadetailactive"><a href="questions-answers-details.html">جزییات پرسش و پاسخ</a>
-                        </li>
-                        <li class="@@loginactive"><a href="login.html">ورود و ثبت نام</a></li>
-                        <li class="@@lockscreenactive"><a href="lockscreen.html">لاک اسکرین</a></li>
-                        <li class="@@lockscreenactive"><a href="404.html">404</a></li>
-                        <li class="navigation__active"><a href="empty.html">صفحه خالی</a></li>
-                    </ul>
-                </li>
+                <li class="@@indexactive"><a href="#"><i class="zmdi zmdi-home"></i> خانه</a></li>
             </ul>
         </div>
     </aside>
 
     <div class="themes">
         <div class="scrollbar-inner">
-            <a href="default.htm" class="themes__item active" data-sa-value="1"><img
+            <a href="#" class="themes__item active" data-sa-value="1"><img
                     src="{{ asset('CAdmin/img/bg/1.jpg') }}" alt=""></a>
-            <a href="default.htm" class="themes__item active" data-sa-value="1"><img
+            <a href="#" class="themes__item active" data-sa-value="1"><img
                     src="{{ asset('CAdmin/img/bg/1.jpg') }}" alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="2"><img src="{{ asset('CAdmin/img/bg/2.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="3"><img src="{{ asset('CAdmin/img/bg/3.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="4"><img src="{{ asset('CAdmin/img/bg/4.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="5"><img src="{{ asset('CAdmin/img/bg/5.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="6"><img src="{{ asset('CAdmin/img/bg/6.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="7"><img src="{{ asset('CAdmin/img/bg/7.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="8"><img src="{{ asset('CAdmin/img/bg/8.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="9"><img src="{{ asset('CAdmin/img/bg/9.jpg') }}"
-                                                                              alt=""></a>
-            <a href="default.htm" class="themes__item" data-sa-value="10"><img src="{{ asset('CAdmin/img/bg/10.jpg') }}"
-                                                                               alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="2"><img src="{{ asset('CAdmin/img/bg/2.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="3"><img src="{{ asset('CAdmin/img/bg/3.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="4"><img src="{{ asset('CAdmin/img/bg/4.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="5"><img src="{{ asset('CAdmin/img/bg/5.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="6"><img src="{{ asset('CAdmin/img/bg/6.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="7"><img src="{{ asset('CAdmin/img/bg/7.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="8"><img src="{{ asset('CAdmin/img/bg/8.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="9"><img src="{{ asset('CAdmin/img/bg/9.jpg') }}"
+                                                                    alt=""></a>
+            <a href="#" class="themes__item" data-sa-value="10"><img src="{{ asset('CAdmin/img/bg/10.jpg') }}"
+                                                                     alt=""></a>
         </div>
     </div>
 
@@ -528,15 +411,15 @@
                 <h1>تست</h1>
 
                 <div class="actions">
-                    <a href="default.htm" class="actions__item zmdi zmdi-trending-up"></a>
-                    <a href="default.htm" class="actions__item zmdi zmdi-check-all"></a>
+                    <a href="#" class="actions__item zmdi zmdi-trending-up"></a>
+                    <a href="#" class="actions__item zmdi zmdi-check-all"></a>
 
                     <div class="dropdown actions__item">
                         <i data-toggle="dropdown" class="zmdi zmdi-more-vert"></i>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a href="default.htm" class="dropdown-item">تازه سازی</a>
-                            <a href="default.htm" class="dropdown-item">مدیریت ویجت ها</a>
-                            <a href="default.htm" class="dropdown-item">تنظیمات</a>
+                            <a href="#" class="dropdown-item">تازه سازی</a>
+                            <a href="#" class="dropdown-item">مدیریت ویجت ها</a>
+                            <a href="#" class="dropdown-item">تنظیمات</a>
                         </div>
                     </div>
                 </div>
@@ -550,59 +433,18 @@
             </div>
 
             <footer class="footer hidden-xs-down">
-                <p>© Super Admin Responsive. All rights reserved.</p>
-
+                {{--<p>© Super Admin Responsive. All rights reserved.</p>--}}
                 <ul class="nav footer__nav">
-                    <a class="nav-link" href="default.htm">صفحه اصلی</a>
-
-                    <a class="nav-link" href="default.htm">شرکت</a>
-
-                    <a class="nav-link" href="default.htm">پشتیبانی</a>
-
-                    <a class="nav-link" href="default.htm">خبر</a>
-
-                    <a class="nav-link" href="default.htm">ارتباط با ما</a>
+                    <li><a class="nav-link" href="#">صفحه اصلی</a></li>
+                    <li><a class="nav-link" href="#">شرکت</a></li>
+                    <li><a class="nav-link" href="#">پشتیبانی</a></li>
+                    <li><a class="nav-link" href="#">خبر</a></li>
+                    <li><a class="nav-link" href="#">ارتباط با ما</a></li>
                 </ul>
             </footer>
         </div>
     </section>
 </main>
-
-<!-- Older IE warning message -->
-<!--[if IE]>
-<div class="ie-warning">
-    <h1>هشدار!!</h1>
-    <p>You are using an outdated version of Internet Explorer, please upgrade to any of the following web browsers to
-        access this website.</p>
-
-    <div class="ie-warning__downloads">
-        <a href="http://www.google.com/chrome">
-            <img src="img/browsers/chrome.png" alt="">
-        </a>
-
-        <a href="https://www.mozilla.org/en-US/firefox/new">
-            <img src="img/browsers/firefox.png" alt="">
-        </a>
-
-        <a href="http://www.opera.com/default.htm">
-            <img src="img/browsers/opera.png" alt="">
-        </a>
-
-        <a href="https://support.apple.com/downloads/safari">
-            <img src="img/browsers/safari.png" alt="">
-        </a>
-
-        <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">
-            <img src="img/browsers/edge.png" alt="">
-        </a>
-
-        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-            <img src="img/browsers/ie.png" alt="">
-        </a>
-    </div>
-    <p>Sorry for the inconvenience!</p>
-</div>
-<![endif]-->
 <!-- Javascript -->
 <!-- Vendors -->
 <script src="{{ asset('CAdmin/vendors/bower_components/jquery/dist/jquery.min.js') }}"></script>
@@ -610,7 +452,6 @@
 <script src="{{ asset('CAdmin/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('CAdmin/vendors/bower_components/jquery.scrollbar/jquery.scrollbar.min.js') }}"></script>
 <script src="{{ asset('CAdmin/vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js') }}"></script>
-
 <!-- App functions and actions -->
 <script src="{{ asset('CAdmin/js/app.min.js') }}"></script>
 </body>
